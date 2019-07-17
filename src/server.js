@@ -3,8 +3,9 @@ const path = require("path");
 
 // Third party libraries
 const express = require("express");
+
 const app = express();
-// The app returned by express() is in fact a JavaScript Function, 
+// The app returned by express() is in fact a JavaScript Function,
 // which is passed to Node’s HTTP servers as a callback to handle requests
 
 const publicPath = path.join(__dirname, "../public");
