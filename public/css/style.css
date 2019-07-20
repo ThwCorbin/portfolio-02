@@ -33,6 +33,15 @@ img {
   border-radius: 50px;
 }
 
+.imgDaddyDance,
+.imgFreddieCat {
+  max-width: 50px;
+}
+
 ul {
   list-style: none;
+}
+
+i {
+  color: var(--blue);
 }
